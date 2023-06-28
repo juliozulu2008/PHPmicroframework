@@ -1,0 +1,17 @@
+{
+    "name":"j.c.dias/microframework",
+    "description": "microframework MVC",
+    "license": "MIT",
+    "authors": [{
+        "name": "Julio Cesar Dias Dos Santos", "email": "juliocddossantos@outlook.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/",
+            "Core\\":"core/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
